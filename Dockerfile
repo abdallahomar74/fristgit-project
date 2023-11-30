@@ -2,7 +2,7 @@ FROM openjdk
 
 WORKDIR /appliction
 
-COPY ahmed.java .
+COPY abdallah.java .
 
 RUN javac abdallah.java
 
