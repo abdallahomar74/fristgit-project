@@ -1,6 +1,6 @@
 FROM openjdk
 
-WORKDIR /appliction
+WORKDIR /application
 
 COPY abdallah.java .
 
