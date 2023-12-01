@@ -6,4 +6,4 @@ COPY abdallah.java .
 
 RUN javac abdallah.java
 
-CMD java abdallah
+CMD java Abdallah
