@@ -1,9 +1,9 @@
-FROM openjdk
+FROM openjdk:11
 
-WORKDIR /application
+WORKDIR /app
 
 COPY abdallah.java .
 
-RUN /bin/sh -c javac abdallah.java
+RUN javac abdallah.java
 
-CMD java Abdallah
+CMD ["java", "Abdallah"]
